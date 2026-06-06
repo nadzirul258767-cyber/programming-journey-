@@ -1,0 +1,72 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #1a120b;
+  color: #f5f0eb;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;
+}
+header {
+  background-color: #0f0a06; 
+  display: flex; 
+  justify-content:space-between; 
+  align-items: center; 
+  padding: 10px 20px;
+  position: sticky; 
+  top: 0;
+  z-index: 10; 
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+}
+
+.logo span {
+  color: #c8a27a;
+}
+
+nav a {
+  color: rgba(245, 240, 235, 0.7);
+  margin-left: 30px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #c8a27a;
+}
+.contact {
+  text-align: center;
+  padding: 100px 50px;
+}
+
+.contact h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  color: rgba(245, 240, 235, 0.6);
+  margin-bottom: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.contact .info {
+  color: #c8a27a;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  padding: 100px;
+  color: rgba(245, 240, 235, 0.3);
+  font-size: 14px;
+}

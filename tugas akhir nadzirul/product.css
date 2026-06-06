@@ -1,0 +1,106 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #1a120b;
+  color: #f5f0eb;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+header {
+  background-color: #0f0a06; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px;
+  position: sticky; 
+  top: 0;
+  z-index: 10; 
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+}
+
+.logo span {
+  color: #c8a27a; 
+}
+
+nav a {
+  color: rgba(245, 240, 235, 0.7);
+  margin-left: 30px; 
+  font-weight: 500;
+  transition: color 0.3s; 
+}
+
+nav a:hover,
+nav a.active {
+  color: #c8a27a;
+}
+.btn {
+  background-color: #c8a27a;
+  color: #1a120b;
+  padding: 8px 5px;
+  border-radius: 30px; 
+  font-weight: 300;
+  display: inline-block; 
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ddb892; 
+}
+.menu {
+  padding: 80px 50px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  background-color: rgba(245, 240, 235, 0.05);
+  border-radius: 15px;
+  overflow: hidden; 
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover; 
+}
+
+.menu-info {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-info h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+.menu-info span {
+  color: #c8a27a;
+  font-weight: 600;
+}
